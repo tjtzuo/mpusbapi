@@ -1,42 +1,31 @@
 
 #Ignore thumbnails created by Windows
 Thumbs.db
+
 #Ignore files built by Visual Studio
-*.obj
-*.exe
-*.pdb
-*.user
-*.aps
-*.pch
-*.vspscc
-*_i.c
-*_p.c
-*.ncb
+Debug/
+Release/
+
+# User-specific files
 *.suo
-*.tlb
-*.tlh
-*.bak
-*.cache
-*.ilk
-*.log
-[Bb]in
-[Dd]ebug*/
-*.lib
-*.sbr
-obj/
-[Rr]elease*/
-_ReSharper*/
-[Tt]est[Rr]esult*
-.vs/
-#Nuget packages folder
-packages/
+*.user
+
 # Visual C++ cache files
 ipch/
+*.aps
+*.ncb
 *.opensdf
 *.sdf
+
 # Visual Studio 6 build log
 *.plg
+
 # Visual Studio 6 workspace options file
 *.opt
-# Files built by Visual Studio
+
+# Files built by Visual SourceSafe
 *.scc
+*.vspscc
+*.vssscc
+
+*.bak
