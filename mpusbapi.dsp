@@ -97,16 +97,7 @@ SOURCE=.\_mpusbapi.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\mpusbapi.cpp
-# End Source File
-# Begin Source File
-
 SOURCE=.\mpusbapi.rc
-# End Source File
-# Begin Source File
-
-SOURCE=.\StdAfx.cpp
-# ADD CPP /Yc"stdafx.h"
 # End Source File
 # End Group
 # Begin Group "Header Files"
@@ -120,22 +111,10 @@ SOURCE=.\_mpusbapi.h
 
 SOURCE=.\Ioctls.h
 # End Source File
-# Begin Source File
-
-SOURCE=.\mpusbapi.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\StdAfx.h
-# End Source File
 # End Group
 # Begin Group "Resource Files"
 
 # PROP Default_Filter "ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"
 # End Group
-# Begin Source File
-
-SOURCE=.\ReadMe.txt
-# End Source File
 # End Target
 # End Project
